@@ -6,6 +6,13 @@ const Router = EmberRouter.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {});
+Router.map(function() {
+  // this.route('cars', {path: '/cars'}, function() {
+    this.route('cars', {path: '/'}, function() {
+    // this.route('index.hbs');
+    this.route('car', {path: '/car/'});
+    this.route('car', {path: '/car/:car_make'});
+  });
+});
 
 export default Router;
