@@ -1,7 +1,6 @@
 # filter-json-persistent
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The Car-Filter application is a simple application to test ember core features.
 
 ## Prerequisites
 
